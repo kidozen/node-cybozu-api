@@ -1,0 +1,21 @@
+{
+  "name": "cybozu-api",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Kidozen <development@kidozen.com>",
+  "contributors": [
+    {
+      "name": "Hernán Tierno",
+      "email": "hernan.tierno@kidozen.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "xmlhttprequest": "^1.6.0"
+  }
+}
