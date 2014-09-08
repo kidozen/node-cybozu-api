@@ -1,9 +1,9 @@
 /*global describe, before, beforeEach, it */
 
 var assert = require('assert');
-var CBLabs = require("../CBLabs");
-require("../core.js");
-require("../schedule.js");
+var CBLabs = require("../lib/CBLabs");
+require("../lib/core");
+require("../lib/schedule");
 
 describe("Cybozu Connector", function () {
     "use strict";
